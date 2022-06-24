@@ -2,6 +2,7 @@ package com.beabravedude.commandlib.command.converter;
 
 import com.beabravedude.commandlib.exception.CommandParameterConversionException;
 import org.bukkit.Bukkit;
+import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 
 import java.util.Optional;
@@ -55,7 +56,7 @@ public interface Converter<T> {
 
         @Override
         public Player convert(String input) {
-            return Optional.ofNullable(Bukkit.getPlayer(input)).orElseThrow(() -> new CommandParameterConversionException("&cPlayer " + input + " not found"));
+            return Optional.ofNullable(Bukkit.getPlayer(input)).orElseThrow(() -> new CommandParameterConversionException(ChatColor.translateAlternateColorCodes('&', "&cPlayer " + input + " not found")));
         }
 
         @Override
