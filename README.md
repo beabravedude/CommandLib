@@ -16,12 +16,12 @@ Maven:
 <dependency>
     <groupId>com.beabravedude</groupId>
     <artifactId>command-lib</artifactId>
-    <version>1.1.1</version>
+    <version>1.1.2</version>
 </dependency>
 ```
 Gradle:
 ```
-implementation 'com.beabravedude:command-lib:1.1.1'
+implementation 'com.beabravedude:command-lib:1.1.2'
 ```
 ## Usage
 To enable CommandLib, insert the following in your plugin `onEnable()` method:
