@@ -1,5 +1,5 @@
 # CommandLib
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.beabravedude/commandlib/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.beabravedude/commandlib)
+[![Maven Central](https://img.shields.io/maven-central/v/com.beabravedude/commandlib.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22com.beabravedude%22%20AND%20a:%22commandlib%22)
 
 A simple light-weight utility to make creating Spigot commands easier!
 
